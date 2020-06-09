@@ -24,6 +24,6 @@ workflows:
     jobs:
       - build-and-push
       - docker/publish:
-          image: $CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME
+          image: $CIRCLE_PROJECT_USERNAME/mkdocsaws
           tag: 'tag1,tag2,tag3'
 
