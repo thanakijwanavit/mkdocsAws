@@ -17,6 +17,7 @@ jobs:
       - run:
           command: |
             echo "Digest is: $(</tmp/digest.txt)"
+      - run: sh test.sh
 
 
 workflows:

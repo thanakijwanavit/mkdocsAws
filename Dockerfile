@@ -1,6 +1,3 @@
-FROM python:3.8.3
-
-
+FROM polinux/mkdocs
 RUN pip install awscli --upgrade --user 
 
-RUN pip install mkdocs
