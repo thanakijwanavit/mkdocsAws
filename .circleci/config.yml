@@ -28,5 +28,5 @@ workflows:
       - build-and-push
       - docker/publish:
           image: $CIRCLE_PROJECT_USERNAME/mkdocsaws
-          tag: 'tag1,tag2,tag3'
+          tag: 'latest,tag2,tag3'
 
