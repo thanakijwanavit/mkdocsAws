@@ -26,4 +26,6 @@ RUN apk --no-cache add \
     && rm glibc-bin-${GLIBC_VER}.apk \
     && rm -rf /var/cache/apk/*
 RUN aws --version
+RUN pip install markdown
+RUN pip install pymdown-extensions
 
